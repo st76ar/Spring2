@@ -1,5 +1,5 @@
 package lesson3;
-
+//github
 import org.springframework.context.ResourceLoaderAware;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
@@ -34,7 +34,7 @@ public class ResourceLoaderService implements ResourceLoaderAware {
                 System.out.println("Нет доступа на чтение файла users.txt");
             }
         } else {
-            System.out.println("Файл users.txt не найден");
+            System.out.println("Файл users.txt не найден2");
         }
     }
 }
